@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="https://ik.imagekit.io/9pisu4akvm/main_logo_without_bg-removebg.png?updatedAt=1684997475117" />
+    <title>Thara</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/15111eadab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="cleaning.css">
+    <link rel="stylesheet" href="web.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+
+    <div class="web_header d-flex flex-row justify-content-space-around fixed-top shadow-md pr-3">
+        <div class="web_logo_container">
+            <img src="https://ik.imagekit.io/9pisu4akvm/main_logo_without_bg-removebg.png?updatedAt=1684997475117" class="web_header_logo_image" alt="">
+        </div>
+
+        <div class="web_nav_container_large d-md-flex flex-column collapse justify-content-center  d-none ">
+            <ul class="web_nav_large d-flex flex-row  ">
+                <li class="web_nav_large_list"><a href="#sectionWebHome" class="web_nav_large_list_anchor">Home</a></li>
+                <li class="web_nav_large_list"><a href="#sectiondesign" class="web_nav_large_list_anchor">Service</a></li>
+                <li class="web_nav_large_list"><a href="#webChoose" class="web_nav_large_list_anchor">Choose Us</a></li>
+                <li class="web_nav_large_list"><a href="#sectionabout" class="web_nav_large_list_anchor">About</a></li>
+                <li class="web_nav_large_list"><a href="#" class="web_nav_large_list_anchor">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="web_nav_footer fixed-bottom d-md-none">
+            <a href="#sectionWebHome" class="web_nav_footer_anchor"><i class="fa-solid fa-house web_footer_nav_icons"></i></a>
+            <a href="#sectiondesign" class="web_nav_footer_anchor"><i class="fa-solid fa-truck web_footer_nav_icons"></i></a>
+            <a href="#webChoose" class="web_nav_footer_anchor"><i class="fa-solid fa-user web_footer_nav_icons"></i></a>
+            <a href="" class="web_nav_footer_anchor"><i class="fa-solid fa-phone web_footer_nav_icons"></i></a>
+        </div>
+        <div class="web_login_container ml-auto d-flex flex-column justify-content-center   ">
+            <a id="" href="https://tharazzform.ccbp.tech"><button class="web_login_btn">Login</button></a>
+
+        </div>
+    </div>
+    <div id="sectionWebHome" class=" fluid-container shadow-lg mt-5 ">
+        <div class="row ">
+            <div class="web_home_container p-5 col-12 col-md-7  ">
+                <p class="web_home_heading ">best online platform </p>
+                <h1 class="web_home_des"> <span class="web_home_des_span">Improve</span> Your Business By <span class="web_home_des_span">connect</span> With Us </h1>
+                <p class="web_home_quates">Communication is the <span class="web_home_quates_span">heart</span> of community and <span class="web_home_quates_span">Ecommerce</span></p>
+                <div class="web_home_input_section">
+                    <input type="text" placeholder="enter name" class="web_home_input" id="webHomeInput">
+                    <p class="btn btn-success mt-2 mb-2 " onclick="nameVerifyBtn()"> Get Started</p>
+                </div>
+                <p id="webHomePara" class="mt-2"></p>
+            </div>
+            <div class="web_home_image_section  d-none d-md-flex flex-column justify-content-center col-md-5">
+                <img src="https://ik.imagekit.io/9pisu4akvm/about_img_mom.png?updatedAt=1685118892328" class="web_home_image w-75" alt="" />
+
+            </div>
+        </div>
+    </div>
+    <div id="sectiondesign" class="fluid-container web_design_main_container shadow-lg ">
+        <div class="row">
+            <div class="design_image_section shadow-md d-none d-md-flex flex-column justify-content-center col-md-6 col-lg-5">
+                <img src="https://www.amrithaa.com/images/responsive-website-design.png" class="design_image w-100" alt="">
+            </div>
+            <div class="design_container pt-5 pr-5 pl-5   col-12 col-md-6 col-lg-7 ">
+                <h2 class="design_heading">Our <span class="design_heading_span">Feature</span> Special For You</h2>
+                <ul class="design_ul p-5">
+                    <li class="design_li">Responsive Website</li>
+                    <li class="design_li">Dynamic Website</li>
+                    <li class="design_li">Ecommerce Website</li>
+                    <li class="design_li">Blogging Website</li>
+                    <li class="design_li">UI /UX Designing</li>
+                    <li class="design_li">Portfolio</li>
+                    <li class="design_li">Resume</li>
+
+                </ul>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div id="webChoose" class="web_choose_main_container fluid-container ">
+        <div class="row">
+            <div class="web_choose_right p-3 col-12 col-md-6 d-flex flex-column justify-content- order-md-2">
+                <img src="https://ik.imagekit.io/9pisu4akvm/choose.png?updatedAt=1686269328788" class="web_choose_right_img m-auto" alt="">
+            </div>
+
+            <div class="web_choose_left pl-3 col-12 col-md-6 order-md-1 ">
+                <div class="web_choose_left_words pl-5 pt-5">
+                    <h1 class="web_choose_heading mt-3">Let's <span class="web_choose_heading_span">Start</span> your business <span class="web_choose_heading_span">with us</span></h1>
+                    <p class="web_choose_des mt-3">how your Product to the world by the help of website</p>
+                </div>
+                <div class="web_choose_left_button d-flex flex-row p-4 ">
+                    <img src="https://ik.imagekit.io/9pisu4akvm/play_store.png?updatedAt=1686268933450" class="web_choose_img" alt="">
+                    <img src="https://ik.imagekit.io/9pisu4akvm/appstore.png?updatedAt=1686268923370" class="web_choose_img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionabout" class="fluid-container web_choose_2_main_box">
+        <div class="row">
+            <div class="web_choose_2_img_section  col-12 col-lg-6 p-5">
+                <img src="https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="web_choose_img w-100" alt="">
+            </div>
+            <div class="web_choose_2_main_conitainer p-5 col-12 col-lg-6">
+                <h1 class="web_choose_2_main_heading">Why Choose Us our Tech <span class="web_choose_2_heading_span">Platfrom</span> </h1>
+
+                <div class="p-3">
+                    <div class="web_choose_list_section_1  d-flex flex-row">
+                        <div class="web_choose_list__sub_section  d-flex flex-row">
+                            <h1 class="web_choose_list_heading"></h1>
+                            <ul class="web_choose_ul">
+                                <li class="web_choose_li">Smart Work</li>
+                                <li class="web_choose_li">Project based</li>
+                                <li class="web_choose_li">Excelent outcome</li>
+                            </ul>
+                        </div>
+                        <div class="web_choose_list__sub_section  d-flex flex-row">
+                            <h1 class="web_choose_list_heading"></h1>
+                            <ul class="web_choose_ul">
+                                <li class="web_choose_li">Group of Skilled Fellows</li>
+                                <li class="web_choose_li">All are Student</li>
+                                <li class="web_choose_li">Internship at MNC's</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="web_choose_list_section_2  d-flex flex-row">
+                        <div class="web_choose_list__sub_section  d-flex flex-row">
+                            <h1 class="web_choose_list_heading"></h1>
+                            <ul class="web_choose_ul">
+                                <li class="web_choose_li">Take some time</li>
+                                <li class="web_choose_li">Result accurancy level is high</li>
+                                <li class="web_choose_li">Cost effective</li>
+                            </ul>
+                        </div>
+                        <div class="web_choose_list__sub_section  d-flex flex-row">
+                            <h1 class="web_choose_list_heading"></h1>
+                            <ul class="web_choose_ul">
+                                <li class="web_choose_li">Creative mind</li>
+                                <li class="web_choose_li">Connect with trend</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer_body">
+        <div class="footer">
+
+
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
